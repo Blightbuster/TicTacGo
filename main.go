@@ -17,7 +17,7 @@ func main() {
 	line, _, _ := reader.ReadLine()
 	boardsize, _ := strconv.ParseInt(string(line), 10, 64)
 	if boardsize < 1 {
-		fmt.Println("Oops! Semms like thats not possible")
+		fmt.Println("Oops! Seems like thats not possible")
 		return
 	}
 
