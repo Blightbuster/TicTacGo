@@ -66,7 +66,7 @@ func main() {
 			return
 		}
 
-		// Prepare oponent move
+		// Prepare opponent move
 		updatePlayer(&currentPlayer)
 		showBoard(board)
 	}
